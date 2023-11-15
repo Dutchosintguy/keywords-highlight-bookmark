@@ -2,6 +2,9 @@
 
 ## Browser Bookmark that will ask for keyword(s) and then color highlight these words on the webpage you visit
 
+This is a browser based bookmark that will ask for one or more keywords. The keywords will be searched for on the current webpage that you are visiting. 
+If one or more of these keywords are found they will be highlighted. Ech found keyword will have its own color for better overview.
+
 ### Step by step install and usage instructions
 
 1. Create or Edit a Bookmark: On your browser's bookmarks bar, right-click to either edit an existing bookmark or add a new one.
