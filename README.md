@@ -13,3 +13,8 @@ If one or more of these keywords are found they will be highlighted. Ech found k
 4. Use the Bookmarklet: Click on the bookmarklet to run it. Enter the keywords as prompted, and they should be highlighted on the page
 
 The code can be fount in this repo under the name [multi_keyword_highlight](https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/multi_keyword_highlight)
+
+
+### Demo video
+
+![Demo video!]([/assets/images/san-juan-mountains.jpg](https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif)https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif "demo video")
