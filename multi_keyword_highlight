@@ -1,0 +1,26 @@
+javascript:(function() {
+    var keywords = [];
+    var colors = ['#FFD700', '#7FFFD4', '#FF69B4', '#98FB98', '#ADD8E6']; 
+    var colorIndex = 0;
+
+    while(true) {
+        var input = prompt('Enter a keyword to highlight (leave blank to finish):');
+        if(input) {
+            keywords.push({ word: input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), color: colors[colorIndex++ % colors.length] });
+        } else {
+            break;
+        }
+    }
+
+    keywords.forEach(function(keywordObj) {
+        var regex = new RegExp(keywordObj.word, 'gi');
+        document.querySelectorAll('*').forEach(function(node) {
+            if(node.nodeType === 1 && node.childNodes && node.childNodes.length === 1 && node.childNodes[0].nodeType === 3) {
+                let text = node.childNodes[0];
+                if(text.nodeValue.match(regex)) {
+                    node.innerHTML = node.innerHTML.replace(regex, `<span style="background-color: ${keywordObj.color};">$&</span>`);
+                }
+            }
+        });
+    });
+})();
