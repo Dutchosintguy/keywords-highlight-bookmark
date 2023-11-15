@@ -9,4 +9,4 @@
 3. Save the Bookmarklet
 4. Use the Bookmarklet: Click on the bookmarklet to run it. Enter the keywords as prompted, and they should be highlighted on the page
 
-The code can be fount in this repo under the name multi_keyword_highlight
+The code can be fount in this repo under the name [multi_keyword_highlight](https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/multi_keyword_highlight)
