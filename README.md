@@ -17,4 +17,5 @@ The code can be fount in this repo under the name [multi_keyword_highlight](http
 
 ### Demo video
 
-![Demo video!]([/assets/images/san-juan-mountains.jpg](https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif)https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif "demo video")
+![Demo video!](https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif)https://github.com/Dutchosintguy/keywords-highlight-bookmark/blob/main/bookmark-demo.gif "demo video")
+
